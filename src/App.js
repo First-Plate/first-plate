@@ -28,12 +28,12 @@ const config = {
 function App() {
   return (
     <div className="App">
-      <Router>
+    <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact component={Login} />
-        <Route path='/about' component={Results} />
-        <Route path='/events' component={Profile} />
+        <Route path='/login' component={Login} />
+        <Route path='/results' component={Results} />
+        <Route path='/profile' component={Profile} />
       </Routes>
     </Router>
       <header>

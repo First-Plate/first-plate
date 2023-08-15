@@ -15,18 +15,18 @@ return (
 	<>
   
 	<Nav>
-    <NavLink to='/App' activeStyle>
+    <NavLink to='/' activeStyle>
       <img src={logo} width="150"/>
     </NavLink>
 		<NavMenu>
-      <NavLink to='/Profile' activeStyle>
+      <NavLink to='/profile' activeStyle>
         Profile
       </NavLink>
-      <NavLink to='/Results' activeStyle>
+      <NavLink to='/results' activeStyle>
         Results
       </NavLink>
       <NavBtn>
-        <NavBtnLink to='/Login'>Login</NavBtnLink>
+        <NavBtnLink to='/login'>Login</NavBtnLink>
       </NavBtn>
 		</NavMenu>
     
