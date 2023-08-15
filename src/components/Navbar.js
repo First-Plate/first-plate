@@ -13,22 +13,24 @@ import '../components/style.css';
 const Navbar = () => {
 return (
 	<>
+  
 	<Nav>
-
-		<NavMenu>
     <NavLink to='/App' activeStyle>
       <img src={logo} width="150"/>
-		</NavLink>
-		<NavLink to='/Profile' activeStyle>
-			Profile
-		</NavLink>
-		<NavLink to='/Results' activeStyle>
-			Results
-		</NavLink>
+    </NavLink>
+		<NavMenu>
+      <NavLink to='/Profile' activeStyle>
+        Profile
+      </NavLink>
+      <NavLink to='/Results' activeStyle>
+        Results
+      </NavLink>
+      <NavBtn>
+        <NavBtnLink to='/Login'>Login</NavBtnLink>
+      </NavBtn>
 		</NavMenu>
-		<NavBtn>
-		<NavBtnLink to='/Login'>Login</NavBtnLink>
-		</NavBtn>
+    
+		
 	</Nav>
 	</>
 );
