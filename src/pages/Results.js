@@ -1,8 +1,12 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
   
 const Results = () => {
   return (
-    <h1>Results</h1>
+    <div>
+      <h1>Results</h1>
+      <Outlet />
+    </div>
   );
 };
   
