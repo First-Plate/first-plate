@@ -31,9 +31,9 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/login' component={Login} />
-        <Route path='/results' component={Results} />
-        <Route path='/profile' component={Profile} />
+          <Route exact path='login' element={<Login />} />
+          <Route path='results' element={<Results />} />
+          <Route path='profile' element={<Profile />} />
       </Routes>
     </Router>
       <header>

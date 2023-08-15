@@ -1,8 +1,13 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
   
 const Login = () => {
   return (
-    <h1>Login</h1>
+    <div>
+      <h1>Login</h1>
+      <Outlet />
+    </div>
+    
   );
 };
   
